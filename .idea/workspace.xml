@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adb36847-47ef-421a-90c6-8098006ef835" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/datastructures/linked_list/SLL_node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/linked_list/Print_SLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/datastructures/linked_list/Print_SLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/linked_list/Singly_LL.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/datastructures/linked_list/Reverse_pair_wise.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +15,7 @@
     <session id="1249554356">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="2" />
@@ -26,23 +23,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="1383" />
+          <entry key="java" value="2060" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1383" />
+          <entry key="JAVA" value="2060" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -50,11 +47,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/datastructures/linked_list/Print_SLL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+            <state relative-caret-position="-481">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/datastructures/linked_list/Reverse_pair_wise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -104,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/com/datastructures/linked_list/Singly_LL.java" />
         <option value="$PROJECT_DIR$/src/com/datastructures/linked_list/SLL_node.java" />
         <option value="$PROJECT_DIR$/src/com/datastructures/linked_list/Print_SLL.java" />
+        <option value="$PROJECT_DIR$/src/com/datastructures/linked_list/Reverse_pair_wise.java" />
       </list>
     </option>
   </component>
@@ -162,7 +169,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604231220823" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604283220085" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -176,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Print_SLL">
+  <component name="RunManager" selected="Application.Reverse_pair_wise">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Practice" />
@@ -200,12 +207,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Reverse_pair_wise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructures.linked_list.Reverse_pair_wise" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.datastructures.linked_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Print_SLL" />
+      <item itemvalue="Application.Reverse_pair_wise" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reverse_pair_wise" />
         <item itemvalue="Application.Print_SLL" />
       </list>
     </recent_temporary>
@@ -221,15 +243,16 @@
       <option name="presentableId" value="Default" />
       <updated>1604202109338</updated>
       <workItem from="1604202111023" duration="19000" />
-      <workItem from="1604202136007" duration="7220000" />
+      <workItem from="1604202136007" duration="10150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7239000" />
+    <option name="totallyTimeSpent" value="10169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="805" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13963965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -241,13 +264,13 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33383232" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32934132" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.38473055" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22005989" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -279,7 +302,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/datastructures/linked_list/Print_SLL.java</url>
-          <line>8</line>
+          <line>11</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -327,8 +350,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/datastructures/linked_list/Print_SLL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        <state relative-caret-position="-481">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/datastructures/linked_list/Reverse_pair_wise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
         </state>
       </provider>
     </entry>
