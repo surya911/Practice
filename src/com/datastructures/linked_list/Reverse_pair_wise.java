@@ -33,6 +33,8 @@ public class Reverse_pair_wise {
 
     SLL_node temp = head ;
 
+    // logic to 2 rever 2 same 2 rev  only for 2 node at a time
+
     while ( temp != null && temp.getNext() != null ){
 
            temp = temp.getNext();
@@ -48,6 +50,22 @@ public class Reverse_pair_wise {
            }
     }
 
+
+     // singly linked list to rev the node at group of n
+        int counter = 0 ;
+
+       for(;;){
+            counter++;
+           // even times
+           // reverse
+           if( counter%2 == 0 ){
+
+           }
+           else{
+               // do not reverse 
+           }
+
+       }
 
 
     }
